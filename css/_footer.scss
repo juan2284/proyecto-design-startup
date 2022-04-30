@@ -1,0 +1,57 @@
+footer{
+  .direccion{
+    background: rgba(60, 27, 55, 0.9);
+    padding: 30px 0;
+    color: #FFF;
+
+    .titulo{
+      font-size: 32px;
+      line-height: 32px;
+      font-family: 'Lobster-Two', Arial, sans-serif;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    .calle,
+    .telefono,
+    .coreo{
+      margin-bottom: 10px;
+    }
+
+    .logo{
+      img{
+        margin-top: 30px;
+        width:40%;
+      }
+    }
+  }
+
+  .social{
+    text-align: center;
+    padding: 20px 0;
+
+    a{
+      padding: 10px;
+      display: inline-block;
+      margin: 0 20px;
+      width: 50px;
+      font-size: 22px;
+      color: #FFF;
+      background: #000;
+      border-radius: 100px;
+
+      &:hover{
+        text-decoration: none;
+      }
+      &.facebook{
+        background: #3B5998;
+      }
+      &.twitter{
+        background: #55ACEE;
+      }
+      &.youtube{
+        background: #CD201F;
+      }
+    }
+  }
+}

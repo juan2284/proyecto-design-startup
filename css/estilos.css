@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px; }
+
+header {
+  background: linear-gradient(to right, rgba(60, 27, 55, 0.9), rgba(106, 37, 85, 0.8), rgba(186, 142, 169, 0.7)), url("../img/bg.jpg"), rgba(106, 37, 85, 0.8);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  display: flex; }
+  header .contenedor-logo-menu {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .contenedor-logo-menu .logo a {
+      display: block; }
+      header .contenedor-logo-menu .logo a img {
+        width: 25%;
+        vertical-align: top; }
+    header .contenedor-logo-menu .menu {
+      text-align: right;
+      line-height: 50px; }
+      header .contenedor-logo-menu .menu a {
+        color: #FFF;
+        margin-left: 60px;
+        font-size: 18px;
+        text-decoration: none; }
+      header .contenedor-logo-menu .menu a:hover {
+        color: #4F4F4F;
+        text-decoration: none; }
+  header .textos {
+    color: #FFF;
+    text-align: center;
+    margin: 200px 0; }
+    header .textos .primera-linea,
+    header .textos .segunda-linea {
+      font-family: 'Lobster Two', 'Oswald', sans-serif;
+      font-weight: 400; }
+    header .textos .primera-linea {
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 30px; }
+    header .textos .segunda-linea {
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 60px; }
+    header .textos .contenedor-btns a {
+      border-radius: 4px;
+      border: 2px solid #FFF;
+      color: #FFF;
+      padding: 12px;
+      font-weight: 600;
+      width: 235px;
+      display: inline-block;
+      text-align: center;
+      margin: 0 10px;
+      text-decoration: none; }
+      header .textos .contenedor-btns a:hover {
+        background: #FFF;
+        color: #4F4F4F; }
+
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo {
+    text-align: center;
+    font-family: 'Lobster two', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .caracteristicas .caracteristica {
+    text-align: center; }
+    .main .caracteristicas .caracteristica .icono {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .main .caracteristicas .caracteristica .primera-linea {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 20px;
+      font-family: 'Lobster Two', Arial, sans-serif; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 30px;
+      line-height: 28px; }
+.main .fotos {
+  margin-bottom: 70px; }
+  .main .fotos .foto {
+    margin-bottom: 20px; }
+    .main .fotos .foto .thumb img {
+      border-radius: 3px;
+      width: 100%;
+      vertical-align: top; }
+    .main .fotos .foto .titulo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: 400;
+      font-family: 'Lobster Two', Arial, sans-serif; }
+      .main .fotos .foto .titulo.azul {
+        color: rgba(106, 37, 85, 0.8); }
+      .main .fotos .foto .titulo.naranja {
+        color: rgba(106, 37, 85, 0.8); }
+    .main .fotos .foto .parrafo {
+      line-height: 28px; }
+    .main .fotos .foto .derecha {
+      text-align: right; }
+.main .clientes {
+  background: rgba(60, 27, 55, 0.9);
+  padding: 40px; }
+  .main .clientes .titulo {
+    text-align: center;
+    font-family: 'Lobster Two', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFF;
+    margin-bottom: 40px; }
+  .main .clientes .cliente {
+    text-align: center; }
+    .main .clientes .cliente a {
+      display: block; }
+.main .precios {
+  background: linear-gradient(to right, rgba(60, 27, 55, 0.3), rgba(60, 27, 55, 0.6), rgba(60, 27, 55, 0.9)), url("../img/precios-bg.jpg");
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  .main .precios .titulo {
+    text-align: center;
+    font-family: 'Lobster Two', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFF;
+    margin-bottom: 70px; }
+  .main .precios .plan {
+    background: #FFF;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 50px 0;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    .main .precios .plan .nombre {
+      font-family: 'Lobster Two', Arial, sans-serif;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    .main .precios .plan .precio {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 30px; }
+    .main .precios .plan .caracteristicas {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; }
+      .main .precios .plan .caracteristicas li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #DEDEDE; }
+    .main .precios .plan .btn {
+      width: 70%;
+      padding: 15px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100px;
+      font-size: 16px; }
+    .main .precios .plan.verde .nombre,
+    .main .precios .plan.verde .precio {
+      color: #86B773; }
+    .main .precios .plan.verde .btn {
+      color: #86B773;
+      border: 2px solid #86B773; }
+      .main .precios .plan.verde .btn:hover {
+        background: #86B773;
+        color: #FFF; }
+    .main .precios .plan.active {
+      background: rgba(60, 27, 55, 0.9);
+      color: #FFF; }
+      .main .precios .plan.active .btn {
+        color: #FFF;
+        border: 2px solid #FFF; }
+        .main .precios .plan.active .btn:hover {
+          background: #FFF;
+          color: rgba(60, 27, 55, 0.9); }
+    .main .precios .plan.naranja .nombre,
+    .main .precios .plan.naranja .precio {
+      color: #DDB146; }
+    .main .precios .plan.naranja .btn {
+      color: #DDB146;
+      border: 2px solid #DDB146; }
+      .main .precios .plan.naranja .btn:hover {
+        background: #DDB146;
+        color: #FFF; }
+.main .reviews {
+  padding: 70px; }
+  .main .reviews .titulo {
+    text-align: center;
+    font-family: 'Lobster two', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(106, 37, 85, 0.8);
+    margin-bottom: 70px; }
+  .main .reviews .cliente {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .main .reviews .cliente .foto {
+      width: 20%;
+      float: left;
+      text-align: right; }
+      .main .reviews .cliente .foto img {
+        max-width: 100px;
+        width: 100%;
+        vertical-align: top;
+        border-radius: 100%; }
+    .main .reviews .cliente .review {
+      float: left;
+      width: 80%;
+      padding: 0 30px;
+      margin-top: 20px; }
+      .main .reviews .cliente .review .texto {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px; }
+      .main .reviews .cliente .review .nombre {
+        color: rgba(186, 142, 169, 0.7);
+        font-size: 14px; }
+    .main .reviews .cliente.derecha .foto {
+      float: right;
+      text-align: left; }
+    .main .reviews .cliente.derecha .review {
+      float: right;
+      text-align: right; }
+
+footer .direccion {
+  background: rgba(60, 27, 55, 0.9);
+  padding: 30px 0;
+  color: #FFF; }
+  footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Lobster-Two', Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  footer .direccion .calle,
+  footer .direccion .telefono,
+  footer .direccion .coreo {
+    margin-bottom: 10px; }
+  footer .direccion .logo img {
+    margin-top: 30px;
+    width: 40%; }
+footer .social {
+  text-align: center;
+  padding: 20px 0; }
+  footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #FFF;
+    background: #000;
+    border-radius: 100px; }
+    footer .social a:hover {
+      text-decoration: none; }
+    footer .social a.facebook {
+      background: #3B5998; }
+    footer .social a.twitter {
+      background: #55ACEE; }
+    footer .social a.youtube {
+      background: #CD201F; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor-logo-menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor-logo-menu .menu {
+    text-align: center; }
+    header .contenedor-logo-menu .menu a {
+      margin: 0 20px; }
+  header .textos {
+    margin: 50px 0;
+    font-size: 16px; }
+    header .textos .primera-linea {
+      font-size: 1.5em; }
+    header .textos .segunda-linea {
+      font-size: 1.3em; }
+    header .textos .contenedor-btns a {
+      margin-bottom: 10px; }
+
+  .main .fotos .foto .titulo {
+    margin-top: 0; }
+  .main .clientes .cliente {
+    margin-bottom: 40px; } }
+@media screen and (max-width: 768px) {
+  .main .caracteristicas .caracteristica {
+    margin-bottom: 40px; }
+  .main .fotos .foto {
+    text-align: center; }
+    .main .fotos .foto .texto * {
+      text-align: left; }
+    .main .fotos .foto .texto p {
+      margin-bottom: 10px; }
+  .main .precios .precio {
+    margin-bottom: 20px; }
+
+  footer .direccion {
+    text-align: center; }
+    footer .direccion .logo img {
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=estilos.css.map */
